@@ -1,0 +1,61 @@
+body {
+    margin: 0 auto;
+    width: 1280px;
+    background-color: snow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tartalom, header, footer, nav, table{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid steelblue;
+    
+}
+
+h1 {
+    color:steelblue;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-variant: small-caps;
+    border-bottom: 1px solid steelblue;
+    width: 60%;
+    padding: 10px;
+    color:steelblue;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid steelblue;
+}
+
+.foto {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid steelblue;
+}
+
+.kepalairas {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    line-height: 0em;
+    text-indent: 0px;
+}
+p{
+    text-align: justify;
+    padding: 30px;
+    line-height: 150%;
+}
+
+a {
+    color:steelblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color:navy;
+}
